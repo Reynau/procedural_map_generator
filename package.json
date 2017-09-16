@@ -1,0 +1,19 @@
+{
+  "name": "map_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/main.js -o docs/js/bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
